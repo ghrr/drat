@@ -4,3 +4,11 @@ License: GPL-2
 MD5sum: 8cacd49ba2a61bb22b657cc3b0875a20
 NeedsCompilation: yes
 
+Package: winsorize
+Version: 0.0.2
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL (>= 2)
+MD5sum: dc2dcfabf1243c56998767db570b5335
+NeedsCompilation: yes
+
