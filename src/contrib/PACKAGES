@@ -11,6 +11,15 @@ License: GPL-2
 MD5sum: 8cacd49ba2a61bb22b657cc3b0875a20
 NeedsCompilation: yes
 
+Package: Rblpapi
+Version: 0.2.1.9
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp, BH
+Suggests: fts, xts, zoo
+License: GPL-3
+MD5sum: 79c588f771e610bc3b934cc6f089f4d1
+NeedsCompilation: yes
+
 Package: winsorize
 Version: 0.0.2
 Imports: Rcpp (>= 0.11.5)
