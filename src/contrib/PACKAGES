@@ -17,7 +17,7 @@ Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, BH
 Suggests: fts, xts, zoo
 License: GPL-3
-MD5sum: b31790f97994607fa01c4e5ca5229364
+MD5sum: a0cfa4b17b3b53b2f5059e90b9243d4a
 NeedsCompilation: yes
 
 Package: winsorize
