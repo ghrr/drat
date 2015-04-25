@@ -1,15 +1,17 @@
 
 ## GitHub Hosted R Repository
 
-This repository holds a repository for R packages which can be used by
+This (GitHub) repository holds a (source code) repository for R packages which can be used by
 
 + calling `drat:::add("ghrr")` if you have 
-[drat](http://dirk.eddelbuettel.com/code/drat.html) install,
+[drat](http://dirk.eddelbuettel.com/code/drat.html) installed,
 
 + or adding the full repository URL
 [http://ghrr.github.io](http://ghrr.github.io) as an argument to
 `install.packages()`, `update.packages()`, or, more easily, via
 `options("repos")`. 
+
+See the [public-facing website of this repository](http://ghrr.github.io/drat) for more links.
 
 ## Contributions Welcome
 
@@ -23,4 +25,4 @@ Dirk Eddelbuettel
 
 ## License
 
-All packages in the repo are released under their respective licenses.
+All packages in the ghrr repository are released under their respective licenses.
