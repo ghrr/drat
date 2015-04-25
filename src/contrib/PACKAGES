@@ -29,12 +29,13 @@ License: BSD_2_clause + file LICENSE
 MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
-Package: RcppToml
-Version: 0.0.1
+Package: RcppTOML
+Version: 0.0.3
 Imports: Rcpp (>= 0.11.5)
 LinkingTo: Rcpp
 License: GPL (>= 2)
-MD5sum: 0ae420d1e6b345e7ec51119c0ee8d200
+OS_type: unix
+MD5sum: 9b0067ad798822b14d21fa6b0f7282a3
 NeedsCompilation: yes
 
 Package: winsorize
