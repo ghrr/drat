@@ -11,6 +11,13 @@ License: GPL-2
 MD5sum: 8cacd49ba2a61bb22b657cc3b0875a20
 NeedsCompilation: yes
 
+Package: git2r
+Version: 0.9
+Depends: R (>= 3.0.2), methods
+License: GPL-2
+MD5sum: 60cca8640a7be791532075bc7fe06172
+NeedsCompilation: yes
+
 Package: Rblpapi
 Version: 0.2.1.14
 Imports: Rcpp (>= 0.11.0)
