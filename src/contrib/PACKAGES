@@ -19,12 +19,12 @@ MD5sum: 60cca8640a7be791532075bc7fe06172
 NeedsCompilation: yes
 
 Package: Rblpapi
-Version: 0.2.1.14
+Version: 0.2.2.0
 Imports: Rcpp (>= 0.11.0)
 LinkingTo: Rcpp, BH
 Suggests: fts, xts, zoo
 License: GPL-3
-MD5sum: 751589a87759447273ff2515d5e8b317
+MD5sum: 95b67770d3bb446e106c3865773836da
 NeedsCompilation: yes
 
 Package: RcppR6
