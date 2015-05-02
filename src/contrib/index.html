@@ -18,21 +18,26 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5">
+        
         <h4>About</h4>
 
-        This <strong>ghrr</strong> (for "GitHub Hosted R Repository") uses <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a>
+        This <strong>ghrr</strong> (for "GitHub Hosted R Repository") uses 
+        <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a>
         for both insertion of packages, and usage from R.
 
         <p></p>
 
+        <h4>Current Content</h4>
+
+        Please <a href="https://github.com/ghrr/drat/tree/gh-pages/src/contrib">see here</a> for packages currently in the ghrr repo.
+        
         <h4>Setup</h4>
         
         Simply install the <a href="http://cran.rstudio.com/package=drat">drat CRAN package</a>
         the  usual way via <code>install.packages("drat", repos="http://cran.rstudio.com")</code>.
 
         <p></p>
-        Then add one line to your <code>.Rprofile</code> file (or its
-        site-wide equivalent <code>Rprofile.site</code>):<br>
+        Add one line to your <code>.Rprofile</code> file (or to <code>Rprofile.site</code>):<br>
         <blockquote>
         <code>drat:::add("ghrr")</code></br>
         </blockquote>
