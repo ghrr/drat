@@ -1,3 +1,12 @@
+Package: docopt
+Version: 0.4.3.1
+Depends: methods
+Imports: stringr
+Suggests: testthat
+License: MIT + file LICENSE
+MD5sum: d8e5fa2ea4e8e10c9f2ee6a99be65219
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.3.1
 Suggests: git2r, knitr
