@@ -1,3 +1,12 @@
+Package: AnomalyDetection
+Version: 1.0.1
+Depends: R (>= 2.10.0)
+Imports: ggplot2, stringr, lubridate
+Suggests: testthat
+License: GPL-3
+MD5sum: dcc22e5d88ff7338763508460fe32555
+NeedsCompilation: no
+
 Package: BreakoutDetection
 Version: 1.0.1.1
 Imports: Rcpp (>= 0.11.2), ggplot2
