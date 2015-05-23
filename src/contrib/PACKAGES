@@ -77,6 +77,16 @@ OS_type: unix
 MD5sum: 9b0067ad798822b14d21fa6b0f7282a3
 NeedsCompilation: yes
 
+Package: rmarkdown
+Version: 0.6.2.2
+Depends: R (>= 3.0)
+Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
+        0.2.4), caTools
+Suggests: shiny (>= 0.11), testthat, digest
+License: GPL-3
+MD5sum: 7d736409da1c3a68d90eb9f5bddd1951
+NeedsCompilation: no
+
 Package: winsorize
 Version: 0.0.2
 Imports: Rcpp (>= 0.11.5)
