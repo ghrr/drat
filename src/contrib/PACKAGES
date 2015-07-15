@@ -69,12 +69,12 @@ MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
 Package: RcppTOML
-Version: 0.0.3
+Version: 0.0.3.2
 Imports: Rcpp (>= 0.11.5)
 LinkingTo: Rcpp
 License: GPL (>= 2)
 OS_type: unix
-MD5sum: 9b0067ad798822b14d21fa6b0f7282a3
+MD5sum: 06bd6a2d91a84b02f0464d504a909fbe
 NeedsCompilation: yes
 
 Package: rmarkdown
