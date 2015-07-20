@@ -59,6 +59,15 @@ License: GPL-3
 MD5sum: 56eaddf9c15dd701d7ba969265371b07
 NeedsCompilation: yes
 
+Package: RcppGSL
+Version: 0.2.5.2
+Imports: Rcpp (>= 0.11.0), stats
+LinkingTo: Rcpp
+Suggests: RUnit, inline, highlight
+License: GPL (>= 2)
+MD5sum: 2fe3a100a1124d11550718a21168bbc4
+NeedsCompilation: yes
+
 Package: RcppR6
 Version: 0.2.001
 Depends: R (>= 3.1.0)
