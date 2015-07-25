@@ -31,10 +31,10 @@ MD5sum: d8e5fa2ea4e8e10c9f2ee6a99be65219
 NeedsCompilation: no
 
 Package: drat
-Version: 0.0.3.1
+Version: 0.0.4.1
 Suggests: git2r, knitr
 License: GPL (>= 2)
-MD5sum: c11bf2eb3bd7168ed6f33e1c859744e3
+MD5sum: 501d0342d3623a9c1815f7d9704dc49f
 NeedsCompilation: no
 
 Package: fasttime
