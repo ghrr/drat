@@ -1,8 +1,8 @@
 Package: Rblpapi
-Version: 0.2.2.6.2.3
+Version: 0.3.2.2
 Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp, BH
-Suggests: fts, xts, zoo
-License: GPL-3
+Suggests: fts, xts, zoo, knitr
+License: file LICENSE
 Archs: i386, x64
 

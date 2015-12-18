@@ -51,12 +51,12 @@ MD5sum: 60cca8640a7be791532075bc7fe06172
 NeedsCompilation: yes
 
 Package: Rblpapi
-Version: 0.2.2.6.3
+Version: 0.3.2.2
 Imports: Rcpp (>= 0.11.0), utils
 LinkingTo: Rcpp, BH
-Suggests: fts, xts, zoo
-License: GPL-3
-MD5sum: 26d6f0a99fa7853bf6d65756cfb801c0
+Suggests: fts, xts, zoo, knitr
+License: file LICENSE
+MD5sum: 92e457586f612ba2ef2c7d4ca04f2bee
 NeedsCompilation: yes
 
 Package: RcppGSL
@@ -89,8 +89,7 @@ NeedsCompilation: yes
 Package: rmarkdown
 Version: 0.6.2.2
 Depends: R (>= 3.0)
-Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>=
-        0.2.4), caTools
+Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>= 0.2.4), caTools
 Suggests: shiny (>= 0.11), testthat, digest
 License: GPL-3
 MD5sum: 7d736409da1c3a68d90eb9f5bddd1951
