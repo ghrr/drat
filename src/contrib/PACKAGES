@@ -111,3 +111,9 @@ License: GPL (>= 2)
 MD5sum: dc2dcfabf1243c56998767db570b5335
 NeedsCompilation: yes
 
+Package: x13binary
+Version: 0.0.1
+License: GPL (>= 2)
+MD5sum: f3db0327a84bec0961afe5cf46f51f60
+NeedsCompilation: no
+
