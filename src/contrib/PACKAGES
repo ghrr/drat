@@ -95,6 +95,14 @@ License: GPL-3
 MD5sum: 7d736409da1c3a68d90eb9f5bddd1951
 NeedsCompilation: no
 
+Package: seasonal
+Version: 1.1.4
+Depends: R (>= 2.15), x13binary
+Suggests: shiny (>= 0.11.1),
+License: GPL-3
+MD5sum: 7f28dfda1263c0f21defb32cbd0f7007
+NeedsCompilation: no
+
 Package: winsorize
 Version: 0.0.2
 Imports: Rcpp (>= 0.11.5)
