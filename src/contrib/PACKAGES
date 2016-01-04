@@ -113,8 +113,8 @@ MD5sum: dc2dcfabf1243c56998767db570b5335
 NeedsCompilation: yes
 
 Package: x13binary
-Version: 0.0.1
+Version: 0.0.2
 License: GPL (>= 2)
-MD5sum: f3db0327a84bec0961afe5cf46f51f60
+MD5sum: 762fb7be149d46cb737c22db1c2b4f34
 NeedsCompilation: no
 
