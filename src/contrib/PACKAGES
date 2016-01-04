@@ -96,11 +96,12 @@ MD5sum: 7d736409da1c3a68d90eb9f5bddd1951
 NeedsCompilation: no
 
 Package: seasonal
-Version: 1.1.4
-Depends: R (>= 2.15), x13binary
+Version: 1.1.6
+Depends: R (>= 2.15)
+Imports: x13binary
 Suggests: shiny (>= 0.11.1),
 License: GPL-3
-MD5sum: 7f28dfda1263c0f21defb32cbd0f7007
+MD5sum: 8bd9e39e61683da3c100a700655fa250
 NeedsCompilation: no
 
 Package: winsorize
