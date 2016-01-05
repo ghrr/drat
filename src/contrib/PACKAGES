@@ -50,6 +50,14 @@ License: GPL-2
 MD5sum: 60cca8640a7be791532075bc7fe06172
 NeedsCompilation: yes
 
+Package: gunsales
+Version: 0.1.0
+Depends: R (>= 2.10)
+Imports: readr, dplyr, stringr, seasonal
+License: Apache License (== 2)
+MD5sum: b14bfcf363c2ce94ca2700e9078c178b
+NeedsCompilation: no
+
 Package: Rblpapi
 Version: 0.3.2.2
 Imports: Rcpp (>= 0.11.0), utils
