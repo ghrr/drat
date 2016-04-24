@@ -77,11 +77,11 @@ MD5sum: 97b016c1f065bf75e60895ff084679ff
 NeedsCompilation: yes
 
 Package: RcppMsgPack
-Version: 0.1.4.0-1
+Version: 0.1.0
 Imports: Rcpp
 LinkingTo: Rcpp
 License: GPL (>= 2)
-MD5sum: 66b3f760d836a3d786f4b83d5b89fb92
+MD5sum: e2a66b3270660e4278599eb25add0b32
 NeedsCompilation: yes
 
 Package: RcppR6
