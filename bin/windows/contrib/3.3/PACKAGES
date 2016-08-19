@@ -1,0 +1,9 @@
+Package: RQuantLib
+Version: 0.4.3
+Depends: R (>= 2.10.0)
+Imports: methods, Rcpp (>= 0.11.0), stats, graphics, zoo
+LinkingTo: Rcpp
+Suggests: rgl, RUnit, shiny
+License: GPL (>= 2)
+Archs: i386, x64
+
