@@ -120,6 +120,13 @@ License: GPL-3
 MD5sum: 8bd9e39e61683da3c100a700655fa250
 NeedsCompilation: no
 
+Package: tint
+Version: 0.0.1
+Imports: htmltools, knitr, rmarkdown
+License: GPL (>= 2)
+MD5sum: 2237f3b5a208e7245c7a4a0c329e55de
+NeedsCompilation: no
+
 Package: winsorize
 Version: 0.0.2
 Imports: Rcpp (>= 0.11.5)
