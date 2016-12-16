@@ -58,6 +58,14 @@ License: Apache License (== 2)
 MD5sum: b14bfcf363c2ce94ca2700e9078c178b
 NeedsCompilation: no
 
+Package: nanotime
+Version: 0.0.1
+Imports: bit64, RcppCCTZ (>= 0.1.0), zoo
+License: GPL (>= 2)
+OS_type: unix
+MD5sum: d13174ef5bacd9c0ac650b3851a8fdd9
+NeedsCompilation: no
+
 Package: Rblpapi
 Version: 0.3.3.3
 Imports: Rcpp (>= 0.11.0), utils
