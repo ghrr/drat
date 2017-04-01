@@ -59,11 +59,11 @@ MD5sum: b14bfcf363c2ce94ca2700e9078c178b
 NeedsCompilation: no
 
 Package: nanotime
-Version: 0.0.1
-Imports: bit64, RcppCCTZ (>= 0.1.0), zoo
+Version: 0.1.2.1
+Imports: methods, bit64, RcppCCTZ (>= 0.2.0), zoo
+Suggests: RUnit, data.table
 License: GPL (>= 2)
-OS_type: unix
-MD5sum: d13174ef5bacd9c0ac650b3851a8fdd9
+MD5sum: af51affe5dc8723584ac7eb0f97bc003
 NeedsCompilation: no
 
 Package: Rblpapi
