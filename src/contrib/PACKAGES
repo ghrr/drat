@@ -50,6 +50,15 @@ License: GPL-2
 MD5sum: 60cca8640a7be791532075bc7fe06172
 NeedsCompilation: yes
 
+Package: gtrendsR
+Version: 1.9.9.0
+Depends: R (>= 3.0)
+Imports: ggplot2, jsonlite, anytime, curl
+Suggests: knitr, rmarkdown
+License: GPL (>= 2)
+MD5sum: 0e65cd17bd29f3e740834a91f6c09bd5
+NeedsCompilation: no
+
 Package: gunsales
 Version: 0.1.0
 Depends: R (>= 2.10)
@@ -148,4 +157,3 @@ Version: 0.0.2
 License: GPL (>= 2)
 MD5sum: 762fb7be149d46cb737c22db1c2b4f34
 NeedsCompilation: no
-
