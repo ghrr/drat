@@ -75,6 +75,13 @@ License: GPL (>= 2)
 MD5sum: af51affe5dc8723584ac7eb0f97bc003
 NeedsCompilation: no
 
+Package: pinp
+Version: 0.0.1
+Imports: rmarkdown, knitr
+License: GPL-3
+MD5sum: f09b433fa8917d29a1f4c52879edd6e8
+NeedsCompilation: no
+
 Package: Rblpapi
 Version: 0.3.3.3
 Imports: Rcpp (>= 0.11.0), utils
