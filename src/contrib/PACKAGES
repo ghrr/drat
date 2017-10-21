@@ -51,6 +51,13 @@ License: Apache License (== 2)
 MD5sum: b14bfcf363c2ce94ca2700e9078c178b
 NeedsCompilation: no
 
+Package: linl
+Version: 0.0.1
+Imports: rmarkdown, knitr
+License: GPL-3
+MD5sum: 428ab5a5561ef33b37b51687569703b0
+NeedsCompilation: no
+
 Package: pinp
 Version: 0.0.1
 Imports: rmarkdown, knitr
