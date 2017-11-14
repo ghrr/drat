@@ -75,12 +75,13 @@ MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
 Package: rmarkdown
-Version: 0.6.2.2
+Version: 1.7.4
 Depends: R (>= 3.0)
-Imports: tools, utils, knitr (>= 1.6), yaml (>= 2.1.5), htmltools (>= 0.2.4), caTools
-Suggests: shiny (>= 0.11), testthat, digest
+Imports: tools, utils, knitr (>= 1.14), yaml (>= 2.1.5), htmltools (>= 0.3.5), evaluate (>= 0.8), base64enc, jsonlite, rprojroot, mime,
+               methods, stringr (>= 1.2.0)
+Suggests: shiny (>= 0.11), tufte, testthat, digest, tibble
 License: GPL-3
-MD5sum: 7d736409da1c3a68d90eb9f5bddd1951
+MD5sum: 81c3aa85a7356a1996599df7e83278cc
 NeedsCompilation: no
 
 Package: winsorize
