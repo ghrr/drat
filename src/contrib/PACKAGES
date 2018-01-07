@@ -65,6 +65,14 @@ License: GPL-3
 MD5sum: f09b433fa8917d29a1f4c52879edd6e8
 NeedsCompilation: no
 
+Package: prrd
+Version: 0.0.1
+Imports: config, liteq, data.table, crayon, DBI, RSQLite
+Suggests: docopt
+License: GPL (>= 2)
+MD5sum: 66129e8ce3ce7e9a1f36a5707e3b31ba
+NeedsCompilation: no
+
 Package: RcppR6
 Version: 0.2.001
 Depends: R (>= 3.1.0)
