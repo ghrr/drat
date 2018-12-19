@@ -8,9 +8,9 @@ MD5sum: dcc22e5d88ff7338763508460fe32555
 NeedsCompilation: no
 
 Package: BH
-Version: 1.58.0-0
+Version: 1.69.0-0
 License: BSL-1.0
-MD5sum: 1c128e5f9f3cb6227d67d8016206e4f6
+MD5sum: 9de3570669f2ef111a395df4a9d8c075
 NeedsCompilation: no
 
 Package: BreakoutDetection
@@ -51,28 +51,6 @@ License: Apache License (== 2)
 MD5sum: b14bfcf363c2ce94ca2700e9078c178b
 NeedsCompilation: no
 
-Package: linl
-Version: 0.0.1.2
-Imports: rmarkdown, knitr
-License: GPL-3
-MD5sum: e30c2e10b0f4b3eedc1ac1020765ab6f
-NeedsCompilation: no
-
-Package: pinp
-Version: 0.0.1
-Imports: rmarkdown, knitr
-License: GPL-3
-MD5sum: f09b433fa8917d29a1f4c52879edd6e8
-NeedsCompilation: no
-
-Package: prrd
-Version: 0.0.1
-Imports: config, liteq, data.table, crayon, DBI, RSQLite
-Suggests: docopt
-License: GPL (>= 2)
-MD5sum: 66129e8ce3ce7e9a1f36a5707e3b31ba
-NeedsCompilation: no
-
 Package: RcppR6
 Version: 0.2.001
 Depends: R (>= 3.1.0)
@@ -80,16 +58,6 @@ Imports: Rcpp, devtools, whisker, yaml
 Suggests: testthat, roxygen2 (>= 4.0.0), R6 (>= 1.0.1.9001)
 License: BSD_2_clause + file LICENSE
 MD5sum: f33c58429168b349f9cf771a36303b6a
-NeedsCompilation: no
-
-Package: rmarkdown
-Version: 1.7.4
-Depends: R (>= 3.0)
-Imports: tools, utils, knitr (>= 1.14), yaml (>= 2.1.5), htmltools (>= 0.3.5), evaluate (>= 0.8), base64enc, jsonlite, rprojroot, mime,
-               methods, stringr (>= 1.2.0)
-Suggests: shiny (>= 0.11), tufte, testthat, digest, tibble
-License: GPL-3
-MD5sum: 81c3aa85a7356a1996599df7e83278cc
 NeedsCompilation: no
 
 Package: winsorize
