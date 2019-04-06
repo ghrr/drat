@@ -51,6 +51,15 @@ License: Apache License (== 2)
 MD5sum: b14bfcf363c2ce94ca2700e9078c178b
 NeedsCompilation: no
 
+Package: Rblpapi
+Version: 0.3.10
+Imports: Rcpp (>= 0.11.0), utils
+LinkingTo: Rcpp, BH
+Suggests: fts, xts, zoo, data.table, knitr, RUnit
+License: file LICENSE
+MD5sum: 86372ca9a75e486acca4fadfe4512ff0
+NeedsCompilation: yes
+
 Package: RcppR6
 Version: 0.2.001
 Depends: R (>= 3.1.0)
