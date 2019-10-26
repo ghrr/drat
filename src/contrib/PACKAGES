@@ -51,6 +51,13 @@ License: Apache License (== 2)
 MD5sum: b14bfcf363c2ce94ca2700e9078c178b
 NeedsCompilation: no
 
+Package: minm
+Version: 0.0.1
+Imports: binb, linl, pinp, tint
+License: GPL (>= 2)
+MD5sum: 37efbbf5dad4d81d99949cbea719fd01
+NeedsCompilation: no
+
 Package: Rblpapi
 Version: 0.3.10
 Imports: Rcpp (>= 0.11.0), utils
