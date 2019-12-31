@@ -67,6 +67,15 @@ License: file LICENSE
 MD5sum: 86372ca9a75e486acca4fadfe4512ff0
 NeedsCompilation: yes
 
+Package: Rcpp
+Version: 1.0.3.7
+Depends: R (>= 3.0.0)
+Imports: methods, utils
+Suggests: tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 2b1021a5e8d27b6e6f8520f4598a074b
+NeedsCompilation: yes
+
 Package: RcppR6
 Version: 0.2.001
 Depends: R (>= 3.1.0)
