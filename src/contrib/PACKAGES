@@ -8,9 +8,9 @@ MD5sum: dcc22e5d88ff7338763508460fe32555
 NeedsCompilation: no
 
 Package: BH
-Version: 1.69.0-0
+Version: 1.72.0-3
 License: BSL-1.0
-MD5sum: 9de3570669f2ef111a395df4a9d8c075
+MD5sum: 83b5473dbb22f385aa3aed893a7f2b42
 NeedsCompilation: no
 
 Package: BreakoutDetection
