@@ -31,7 +31,7 @@
 
         Please <a href="https://github.com/ghrr/drat/tree/gh-pages/src/contrib">see here</a> for packages currently in the ghrr repo.
         
-        <h4>Setup</h4>
+        <h4>Usage: Drat Setup</h4>
         
         Simply install the <a href="http://cran.rstudio.com/package=drat">drat CRAN package</a>
         the  usual way via <code>install.packages("drat", repos="http://cran.rstudio.com")</code>.
@@ -49,6 +49,25 @@
 
         <p></p>
 
+        <h4>Usage: Alternative</h4>
+
+        If you just want to install a package, or update once, you can also
+        add the repo on the fly.  For example,
+
+        <blockquote>
+        <code>install.packages("Rcpp", repos="https://ghrr.github.io/drat")</code></br>
+        </blockquote>
+
+        would install <code>Rcpp</code> from the ghrr repo (assuming a
+        version is installed.  And
+
+        <blockquote>
+        <code>update.packages(lib="/usr/local/lib/R/site-library/", repos="https://ghrr.github.io/drat")
+        </code></br>
+        </blockquote>
+
+        would update packages in the given library location relative to ghrr.
+        
         <h4>More</h4>
         
         You can learn more about <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a> from the vignettes
