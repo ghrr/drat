@@ -85,6 +85,16 @@ License: BSD_2_clause + file LICENSE
 MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
+Package: RProtoBuf
+Version: 0.4.15.1
+Depends: R (>= 3.0.0), methods
+Imports: utils, stats, tools, Rcpp
+LinkingTo: Rcpp
+Suggests: tinytest
+License: GPL (>= 2)
+MD5sum: 643f8ad1a01159db4e84ece6a5c27262
+NeedsCompilation: yes
+
 Package: winsorize
 Version: 0.0.2
 Imports: Rcpp (>= 0.11.5)
