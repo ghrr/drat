@@ -87,13 +87,13 @@ MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
 Package: RProtoBuf
-Version: 0.4.15.1
+Version: 0.4.16.1
 Depends: R (>= 3.0.0), methods
-Imports: utils, stats, tools, Rcpp
+Imports: utils, stats, tools, Rcpp, RCurl
 LinkingTo: Rcpp
 Suggests: tinytest
 License: GPL (>= 2)
-MD5sum: 643f8ad1a01159db4e84ece6a5c27262
+MD5sum: 40dc9939105bc4c1ec6ddb6fbe5ec987
 NeedsCompilation: yes
 
 Package: winsorize
