@@ -96,6 +96,16 @@ License: GPL (>= 2)
 MD5sum: 40dc9939105bc4c1ec6ddb6fbe5ec987
 NeedsCompilation: yes
 
+Package: tiledb
+Version: 0.7.0
+Imports: methods, Rcpp, nanotime
+LinkingTo: Rcpp
+Suggests: testthat, rmarkdown, knitr, BiocStyle
+License: MIT + file LICENSE
+OS_type: unix
+MD5sum: 0c060608561a0737ac5035faa4e74019
+NeedsCompilation: yes
+
 Package: winsorize
 Version: 0.0.2
 Imports: Rcpp (>= 0.11.5)
