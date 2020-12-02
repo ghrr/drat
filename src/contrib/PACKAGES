@@ -86,6 +86,16 @@ License: BSD_2_clause + file LICENSE
 MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
+Package: RcppTOML
+Version: 0.1.7
+Depends: R (>= 3.3.0)
+Imports: Rcpp (>= 0.11.5)
+LinkingTo: Rcpp
+Suggests: tinytest
+License: GPL (>= 2)
+MD5sum: 9a980e2d05d82226883733d05f3a9168
+NeedsCompilation: yes
+
 Package: RProtoBuf
 Version: 0.4.15.1
 Depends: R (>= 3.0.0), methods
