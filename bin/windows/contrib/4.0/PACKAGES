@@ -1,0 +1,7 @@
+Package: RcppSimdJson
+Version: 0.1.4.1
+Imports: Rcpp, utils
+LinkingTo: Rcpp
+Suggests: bit64, tinytest
+License: GPL (>= 2)
+Archs: i386, x64
