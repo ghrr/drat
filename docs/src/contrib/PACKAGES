@@ -30,6 +30,15 @@ License: MIT + file LICENSE
 MD5sum: d8e5fa2ea4e8e10c9f2ee6a99be65219
 NeedsCompilation: no
 
+Package: drat
+Version: 0.1.8.3
+Depends: R (>= 3.6.0)
+Imports: utils
+Suggests: git2r, knitr, minidown
+License: GPL (>= 2)
+MD5sum: 81eced0bb6c865d0f3e86cbb8db438cb
+NeedsCompilation: no
+
 Package: fasttime
 Version: 1.0-1
 License: GPL-2
