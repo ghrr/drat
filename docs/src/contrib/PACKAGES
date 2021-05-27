@@ -152,3 +152,9 @@ LinkingTo: Rcpp, RcppArmadillo
 License: GPL (>= 2)
 MD5sum: dc2dcfabf1243c56998767db570b5335
 NeedsCompilation: yes
+
+Package: x13binary
+Version: 1.1.39-4
+License: file LICENSE
+MD5sum: 54268aa2bb19a8a935385c740990739c
+NeedsCompilation: no
