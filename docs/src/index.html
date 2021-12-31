@@ -1,78 +1,77 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
+<!-- Derived from Story by HTML5 UP | html5up.net | @ajlkn | Free for personal and commercial use under the CCA 3.0 license (html5up.net/license) -->
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
-  <title>drat</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.min.css" rel="stylesheet"> <!-- FontAwesome -->
+<title>ghrr drat</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="https://eddelbuettel.github.io/html5-story/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="https://eddelbuettel.github.io/html5-story/assets/css/noscript.css" /></noscript>
 </head>
-<body>
-  <div class="jumbotron">
-    <div class="container">
-      <h2>ghrr: GitHub Hosted R Repository</h2>
-    </div>
-  </div><!-- /.umbotron -->
-  <div class="row"> &nbsp; </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5">
-        
-        <h4>About</h4>
 
-        This <strong>ghrr</strong> (for "GitHub Hosted R Repository") uses 
-        <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a>
-        for both insertion of packages, and usage from R.
+<body class="is-preload">
 
-        <p></p>
+<!-- Wrapper -->
+<div id="wrapper" class="divided">
 
-        <h4>Current Content</h4>
+<!-- One -->
+<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+<div class="content">
+  <header>
+  <h2><code>ghrr drat</code></h2>
+  <p>This <em>GitHub Hosted R Repository</em> ("ghrr") repository uses <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a> for both insertion of packages, and usage from R. </p>
+  </header>
+  
+  <p>
+  <strong>Setup Method One:</strong>
+  Simply install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a>
+  the  usual way via <code>install.packages("drat", repos="https://cloud.r-project.org")</code> and then add one line to your 
+  <code>.Rprofile</code> file (or to <code>Rprofile.site</code>): <code>drat:::add("ghrr")</code>. 
+  That's it! Now use <code>install.packages()</code> or
+  <code>update.packages()</code> and this ghrr drat will be considered along with the standard repositories for R.
+  </p>
 
-        Please <a href="https://github.com/ghrr/drat/tree/gh-pages/src/contrib">see here</a> for packages currently in the ghrr repo.
-        
-        <h4>Setup</h4>
-        
-        Simply install the <a href="http://cran.rstudio.com/package=drat">drat CRAN package</a>
-        the  usual way via <code>install.packages("drat", repos="http://cran.rstudio.com")</code>.
+  <p>
+  <strong>Setup Method Two:</strong>
+  A direct approach can pass the repo information to <code>install.packages()</code> (and to <code>update.packages()</code>):
+  <code>install.packages("AnomalyDetection", repo=c("https://ghrr.github.io/drat", "https://cloud.r-project.org"))</code> 
+  (which also passes the CRAN repo information in case other depencies are needed, add BioConductor or other repos as needed too).
+  </p>
 
-        <p></p>
-        Add one line to your <code>.Rprofile</code> file (or to <code>Rprofile.site</code>):<br>
-        <blockquote>
-        <code>drat:::add("ghrr")</code></br>
-        </blockquote>
-        
-        <p></p>
-        That's it! Now use <code>install.packages()</code> or
-        <code>update.packages()</code> and the ghrr will be considered
-        just like the standard repositories for R.
+  You can learn more about <a href="https://cloud.r-project.org/package=drat">drat</a> at the 
+  <a href="https://eddelbuettel.github.io/drat">package documentation site</a> which includes several vignettes.
+</div>
+<div class="image">
+  <img src="https://ghrr.github.io/drat/extras/rolandas-s-V9lE_IH7rg4-unsplash.jpeg" alt="photo of toronto building, source is https://unsplash.com/photos/ribXsPbE9JU"/> 
+</div>
+</section>
 
-        <p></p>
+<!-- Footer -->
+<footer class="wrapper style1 align-center">
+<div class="inner">
+  <ul class="icons">
+    <li><a href="https://github.com/eddelbuettel" class="icon brands style1 fa-github"><span class="label">GitHub</span></a></li> 
+    <li><a href="https://twitter.com/eddelbuettel" class="icon brands style1 fa-twitter"><span class="label">Twitter</span></a></li>
+    <!-- <li><a href="#" class="icon brands style1 fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+    <!-- <li><a href="#" class="icon brands style1 fa-instagram"><span class="label">Instagram</span></a></li> -->
+    <li><a href="https://www.linkedin.com/in/dirkeddelbuettel/" class="icon brands style1 fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+    <li><a href="mailto:dirk@eddelbuettel.com" class="icon style1 fa-envelope"><span class="label">Email</span></a></li>
+  </ul>
+  <p>
+   Website based on Story which is &copy; Untitled and part of <a href="https://html5up.net">HTML5 UP</a>.
+   Photo from <a href="https://unsplash.com">unsplash</a> via <a href="https://unsplash.com/photos/V9lE_IH7rg4">this page</a>.
+  </p>
+</div>
+</footer>
 
-        <h4>More</h4>
-        
-        You can learn more about <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a> from the vignettes
-        <a href="http://eddelbuettel.github.io/drat/DratForPackageUsers.html">Drat for Package Users</a> and
-        <a href="http://eddelbuettel.github.io/drat/DratForPackageAuthors.html">Drat for Package Authors</a>.
-      </div>
-      <div class="col-md-6">
-        <center>
-        <img src="https://avatars3.githubusercontent.com/u/11597821?v=3&amp;s=400"  />
-        </center>
-      </div>
-    </div>
-   </div>
-   <div class="row"> &nbsp; </div>
-   <footer class="footer">
-     <div class="container">
-       <a href="http://twitter.com/eddelbuettel"><i class="icon-twitter"></i></a>
-       <a href="https://plus.google.com/+DirkEddelbuettel"><i class="icon-google-plus"></i></a>
-       <a href="https://github.com/eddelbuettel"><i class="icon-github"></i></a>
-       <!-- <a href="http://stackoverflow.com/users/143305/dirk-eddelbuettel"><i class="icon-stackexchange"></i></a> -->
-       <a href="http://www.linkedin.com/in/dirkeddelbuettel/"><i class="icon-linkedin"></i></a>
-       <a href="http://dirk.eddelbuettel.com"><i class="icon-home"></i>
-       <a href="http://dirk.eddelbuettel.com/blog/index.rss"><i class="icon-rss"></i></a>
-     </div>
-   </footer>
+<!-- Scripts -->
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/jquery.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/jquery.scrollex.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/jquery.scrolly.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/browser.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/breakpoints.min.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/util.js"></script>
+<script src="https://eddelbuettel.github.io/html5-story/assets/js/main.js"></script>
+
 </body>
 </html>
