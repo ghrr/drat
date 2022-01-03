@@ -19,23 +19,22 @@
 <div class="content">
   <header>
   <h2><code>ghrr drat</code></h2>
-  <p>This <em>GitHub Hosted R Repository</em> ("ghrr") repository uses <a href="http://dirk.eddelbuettel.com/code/drat.html">drat</a> for both insertion of packages, and usage from R. </p>
+  <p>This <em>GitHub Hosted R Repository</em> ("ghrr") repository uses <a href="https://dirk.eddelbuettel.com/code/drat.html">drat</a> to serve R packages.</p>
   </header>
   
   <p>
-  <strong>Setup Method One:</strong>
-  Simply install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a>
-  the  usual way via <code>install.packages("drat", repos="https://cloud.r-project.org")</code> and then add one line to your 
+  <strong>Method One:</strong>
+  First install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a>
+  via <code>install.packages("drat", repos="https://cloud.r-project.org")</code>. Second add one line to your 
   <code>.Rprofile</code> file (or to <code>Rprofile.site</code>): <code>drat:::add("ghrr")</code>. 
-  That's it! Now use <code>install.packages()</code> or
-  <code>update.packages()</code> and this ghrr drat will be considered along with the standard repositories for R.
+  That's it: <code>install.packages()</code> or
+  <code>update.packages()</code> will now this drat repo the standard repo.
   </p>
 
   <p>
-  <strong>Setup Method Two:</strong>
-  A direct approach can pass the repo information to <code>install.packages()</code> (and to <code>update.packages()</code>):
-  <code>install.packages("AnomalyDetection", repo=c("https://ghrr.github.io/drat", "https://cloud.r-project.org"))</code> 
-  (which also passes the CRAN repo information in case other depencies are needed, add BioConductor or other repos as needed too).
+  <strong>Method Two:</strong>
+  Pass repo to <code>install.packages()</code>: <code>install.packages("AnomalyDetection", repos=c("https://ghrr.github.io/drat", "https://cloud.r-project.org"))</code>
+  This also passes on the CRAN repo information in case other depencies are needed, one can add BioConductor or other repos as needed too. Works similarly for <code>update.packages()</code>.
   </p>
 
   You can learn more about <a href="https://cloud.r-project.org/package=drat">drat</a> at the 
