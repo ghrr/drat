@@ -15,29 +15,29 @@
 <div id="wrapper" class="divided">
 
 <!-- One -->
-<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+<section class="spotlight style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 <div class="content">
   <header>
   <h2><code>ghrr drat</code></h2>
-  <p>This <em>GitHub Hosted R Repository</em> ("ghrr") repository uses <a href="https://dirk.eddelbuettel.com/code/drat.html">drat</a> to serve R packages.</p>
+  <p><em>GitHub Hosted R Repository</em> ("ghrr") repository serving R packages via <a href="https://dirk.eddelbuettel.com/code/drat.html">drat</a>.</p>
   </header>
   
   <p>
   <strong>Method One:</strong>
-  First install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a>
-  via <code>install.packages("drat", repos="https://cloud.r-project.org")</code>. Second add one line to your 
-  <code>.Rprofile</code> file (or to <code>Rprofile.site</code>): <code>drat:::add("ghrr")</code>. 
-  That's it: <code>install.packages()</code> or
-  <code>update.packages()</code> will now this drat repo the standard repo.
+  Install the <a href="https://cloud.r-project.org/package=drat">drat CRAN package</a> via
+  <code>install.packages("drat", repos="https://cloud.r-project.org")</code>
+  and add <code>drat:::add("ghrr")</code> to either 
+  <code>.Rprofile</code> file or to <code>Rprofile.site</code> and that's
+  it. Now <code>install.packages()</code> or <code>update.packages()</code> will use this drat repo.
   </p>
 
   <p>
   <strong>Method Two:</strong>
-  Pass repo to <code>install.packages()</code>: <code>install.packages("AnomalyDetection", repos=c("https://ghrr.github.io/drat", "https://cloud.r-project.org"))</code>
-  This also passes on the CRAN repo information in case other depencies are needed, one can add BioConductor or other repos as needed too. Works similarly for <code>update.packages()</code>.
+  Pass the repo information to <code>install.packages()</code>: <code>install.packages("minm", repos=c("https://ghrr.github.io/drat", "https://cloud.r-project.org"))</code>
+  This also passes the CRAN repo information on in case other depencies are needed; one can add BioConductor or other repos as needed too. And it works the same for <code>update.packages()</code>.
   </p>
 
-  You can learn more about <a href="https://cloud.r-project.org/package=drat">drat</a> at the 
+  Learn more about <a href="https://cloud.r-project.org/package=drat">drat</a> at the 
   <a href="https://eddelbuettel.github.io/drat">package documentation site</a> which includes several vignettes.
 </div>
 <div class="image">
