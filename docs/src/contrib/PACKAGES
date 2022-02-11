@@ -67,6 +67,13 @@ License: GPL (>= 2)
 MD5sum: 37efbbf5dad4d81d99949cbea719fd01
 NeedsCompilation: no
 
+Package: narrow
+Version: 0.0.1.20220211
+Suggests: arrow, covr, rmarkdown, testthat (>= 3.0.0), vctrs
+License: Apache License (>= 2)
+MD5sum: f979639efe0e23cdfe7267c291d26876
+NeedsCompilation: yes
+
 Package: Rblpapi
 Version: 0.3.10
 Imports: Rcpp (>= 0.11.0), utils
