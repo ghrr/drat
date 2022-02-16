@@ -1,0 +1,5 @@
+Package: narrow
+Version: 0.0.1.20220215
+Suggests: arrow, covr, rmarkdown, testthat (>= 3.0.0), vctrs
+License: Apache License (>= 2)
+Archs: i386, x64
