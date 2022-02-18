@@ -68,10 +68,10 @@ MD5sum: 37efbbf5dad4d81d99949cbea719fd01
 NeedsCompilation: no
 
 Package: narrow
-Version: 0.0.1.20220211
+Version: 0.0.1.20220218
 Suggests: arrow, covr, rmarkdown, testthat (>= 3.0.0), vctrs
 License: Apache License (>= 2)
-MD5sum: f979639efe0e23cdfe7267c291d26876
+MD5sum: d305d33958059c8008cca6376f27d475
 NeedsCompilation: yes
 
 Package: Rblpapi
@@ -130,26 +130,6 @@ LinkingTo: Rcpp
 Suggests: tinytest
 License: GPL (>= 2)
 MD5sum: 40dc9939105bc4c1ec6ddb6fbe5ec987
-NeedsCompilation: yes
-
-Package: tiledb
-Version: 0.7.0
-Imports: methods, Rcpp, nanotime
-LinkingTo: Rcpp
-Suggests: testthat, rmarkdown, knitr, BiocStyle
-License: MIT + file LICENSE
-OS_type: unix
-MD5sum: 0c060608561a0737ac5035faa4e74019
-NeedsCompilation: yes
-
-Package: tiledb
-Version: 0.7.1
-Imports: methods, Rcpp, nanotime
-LinkingTo: Rcpp
-Suggests: testthat, rmarkdown, knitr, BiocStyle, jsonlite, curl
-License: MIT + file LICENSE
-OS_type: unix
-MD5sum: d6d9ec658633e685ed72a73a88579144
 NeedsCompilation: yes
 
 Package: winsorize
