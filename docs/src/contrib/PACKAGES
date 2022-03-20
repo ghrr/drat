@@ -68,13 +68,6 @@ MD5sum: 37efbbf5dad4d81d99949cbea719fd01
 NeedsCompilation: no
 
 Package: narrow
-Version: 0.0.1.20220218
-Suggests: arrow, covr, rmarkdown, testthat (>= 3.0.0), vctrs
-License: Apache License (>= 2)
-MD5sum: d305d33958059c8008cca6376f27d475
-NeedsCompilation: yes
-
-Package: narrow
 Version: 0.0.1.20220222
 Suggests: arrow, covr, rmarkdown, testthat (>= 3.0.0), vctrs
 License: Apache License (>= 2)
@@ -120,16 +113,6 @@ MD5sum: 9a980e2d05d82226883733d05f3a9168
 NeedsCompilation: yes
 
 Package: RProtoBuf
-Version: 0.4.15.1
-Depends: R (>= 3.0.0), methods
-Imports: utils, stats, tools, Rcpp
-LinkingTo: Rcpp
-Suggests: tinytest
-License: GPL (>= 2)
-MD5sum: 643f8ad1a01159db4e84ece6a5c27262
-NeedsCompilation: yes
-
-Package: RProtoBuf
 Version: 0.4.16.1
 Depends: R (>= 3.0.0), methods
 Imports: utils, stats, tools, Rcpp, RCurl
@@ -137,6 +120,13 @@ LinkingTo: Rcpp
 Suggests: tinytest
 License: GPL (>= 2)
 MD5sum: 40dc9939105bc4c1ec6ddb6fbe5ec987
+NeedsCompilation: yes
+
+Package: rredis
+Version: 1.7.0
+Suggests: RUnit
+License: Apache License (>= 2.0)
+MD5sum: be3266da6f83edb741b625bcd3726035
 NeedsCompilation: yes
 
 Package: winsorize
