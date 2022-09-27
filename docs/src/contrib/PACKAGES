@@ -7,6 +7,13 @@ License: GPL-3
 MD5sum: dcc22e5d88ff7338763508460fe32555
 NeedsCompilation: no
 
+Package: arch
+Version: 0.0.1
+Suggests: arrow, simplermarkdown, testthat (>= 3.0.0), vctrs
+License: Apache License (>= 2)
+MD5sum: cfd365d943f3d42e56b90b5ed7757573
+NeedsCompilation: yes
+
 Package: BH
 Version: 1.77.99-1
 License: BSL-1.0
