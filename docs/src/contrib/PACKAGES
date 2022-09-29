@@ -11,7 +11,7 @@ Package: arch
 Version: 0.0.1
 Suggests: arrow, simplermarkdown, testthat (>= 3.0.0), vctrs
 License: Apache License (>= 2)
-MD5sum: cfd365d943f3d42e56b90b5ed7757573
+MD5sum: 0062c65e5867b82df83d9646921611d0
 NeedsCompilation: yes
 
 Package: BH
