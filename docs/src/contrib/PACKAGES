@@ -116,6 +116,15 @@ License: BSD_2_clause + file LICENSE
 MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
+Package: RcppSpdlog
+Version: 0.0.8.2
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: simplermarkdown
+License: GPL (>= 2)
+MD5sum: c5f3955b0e5796cd99f0f2c25e3b1b46
+NeedsCompilation: yes
+
 Package: RcppTOML
 Version: 0.1.7
 Depends: R (>= 3.3.0)
