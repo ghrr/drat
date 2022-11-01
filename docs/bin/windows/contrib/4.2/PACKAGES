@@ -3,3 +3,11 @@ Version: 0.0.1.20220215
 Suggests: arrow, covr, rmarkdown, testthat (>= 3.0.0), vctrs
 License: Apache License (>= 2)
 Archs: x64
+
+Package: RcppSpdlog
+Version: 0.0.8.3
+Imports: Rcpp
+LinkingTo: Rcpp
+Suggests: simplermarkdown
+License: GPL (>= 2)
+Archs: x64
