@@ -117,12 +117,12 @@ MD5sum: f33c58429168b349f9cf771a36303b6a
 NeedsCompilation: no
 
 Package: RcppSpdlog
-Version: 0.0.8.3
+Version: 0.0.8.4
 Imports: Rcpp
 LinkingTo: Rcpp
 Suggests: simplermarkdown
 License: GPL (>= 2)
-MD5sum: 91f69d8d4791e75e70ebc5696c695b38
+MD5sum: a58096024333801f9d15501a6a66de93
 NeedsCompilation: yes
 
 Package: RcppTOML
