@@ -88,6 +88,12 @@ License: Apache License (>= 2)
 MD5sum: d05b2747068e449c1a0b4be316e7b870
 NeedsCompilation: yes
 
+Package: pbmc3k.tiledb
+Version: 0.0.2
+License: MIT + file LICENSE
+MD5sum: 012ce47fc6c11ee129832d224443eccd
+NeedsCompilation: no
+
 Package: Rblpapi
 Version: 0.3.10
 Imports: Rcpp (>= 0.11.0), utils
