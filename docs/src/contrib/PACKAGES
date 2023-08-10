@@ -88,6 +88,14 @@ License: Apache License (>= 2)
 MD5sum: d05b2747068e449c1a0b4be316e7b870
 NeedsCompilation: yes
 
+Package: pbmc3k.sce
+Version: 0.0.0.9005
+Depends: R (>= 2.10), SingleCellExperiment (>= 1.20.0)
+Suggests: DropletUtils, pkgload, scater, scran, tools, usethis
+License: CC BY 4.0
+MD5sum: be1fe8b1c7684e4374b40ba85602f7a7
+NeedsCompilation: no
+
 Package: pbmc3k.tiledb
 Version: 0.0.2
 License: MIT + file LICENSE
