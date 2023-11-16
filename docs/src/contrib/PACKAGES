@@ -102,6 +102,12 @@ License: MIT + file LICENSE
 MD5sum: 012ce47fc6c11ee129832d224443eccd
 NeedsCompilation: no
 
+Package: pbmc3k.tiledb
+Version: 0.0.3
+License: MIT + file LICENSE
+MD5sum: 3459c881989fca559d7bab7628cbb68a
+NeedsCompilation: no
+
 Package: Rblpapi
 Version: 0.3.10
 Imports: Rcpp (>= 0.11.0), utils
