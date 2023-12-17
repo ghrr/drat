@@ -27,6 +27,12 @@ License: BSL-1.0
 MD5sum: a628be28753d60f80ed3c456257aa6ba
 NeedsCompilation: no
 
+Package: BH
+Version: 1.84.0-0
+License: BSL-1.0
+MD5sum: cdf93d9256198f8e97ca5026c81f14b4
+NeedsCompilation: no
+
 Package: BreakoutDetection
 Version: 1.0.1.1
 Imports: Rcpp (>= 0.11.2), ggplot2
